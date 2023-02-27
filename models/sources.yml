@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist
+    description: This is a replica of the olsit database
+    schema: olist_raw
+    tables:
+      - name: raw_customers
+      - name: geolocation
+      - name: order_items
+      - name: order_payments
+      - name: order_reviews
+      - name: orders
+      - name: product_category_name_translation
+      - name: products
+      - name: sellers
