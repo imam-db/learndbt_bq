@@ -6,11 +6,11 @@ sources:
     schema: olist_raw
     tables:
       - name: raw_customers
-      - name: geolocation
-      - name: order_items
-      - name: order_payments
-      - name: order_reviews
-      - name: orders
-      - name: product_category_name_translation
-      - name: products
-      - name: sellers
+      - name: raw_geolocations
+      - name: raw_order_items
+      - name: raw_order_payments
+      - name: raw_order_reviews
+      - name: raw_orders
+      - name: raw_product_category_name_translation
+      - name: raw_products
+      - name: raw_sellers
